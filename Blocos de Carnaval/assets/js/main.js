@@ -72,6 +72,6 @@ lista.addEventListener('click', () => {
 
 mapa.addEventListener('click', () => {
     blocos.style.display = 'none';
-    imgMapa.style.display = 'block'
+    imgMapa.style.display = 'initial'
 })
 
