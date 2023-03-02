@@ -51,3 +51,27 @@ function filterLocation(){
     }
    }
 }
+
+
+//_________________________________________________________
+
+
+const lista = document.querySelector('#lista')
+const blocos = document.querySelector(" .blocos ")
+
+
+const mapa = document.querySelector('#mapa')
+const imgMapa = document.querySelector(".mapa")
+
+
+
+lista.addEventListener('click', () => {
+    imgMapa.style.display = 'none';
+    blocos.style.display = 'block'
+})
+
+mapa.addEventListener('click', () => {
+    blocos.style.display = 'none';
+    imgMapa.style.display = 'block'
+})
+

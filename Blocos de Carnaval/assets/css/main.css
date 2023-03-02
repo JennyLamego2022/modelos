@@ -27,8 +27,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    /* gap: 694px; */
-  
   }
   
   .acao{
@@ -39,7 +37,6 @@
     padding: 8px;
     border: 1px solid #EAEAEA;
     border-radius: 6px;
-  
   }
   
   .botao-busca{
@@ -87,20 +84,21 @@
     padding: 0px;
     gap: 32px;
     border-radius: 10px;
+    /* display:initial; */
   }
 
+
   ul{
+    width: 100%;
     text-decoration: none;
     list-style: none;
   }
+
+  li{
+    width: 100%;
+  }
   
   .box-card{
-    /* isolation: isolate; */
-  
-    /* width: 384px; */
-    /* height: 323px; */
-    /* position: relative; */
-    /* background: #FFFFFF; */
     border: 1px solid #EAEAEA;
     border-radius: 10px;
     max-width: 384px;
@@ -109,9 +107,6 @@
 
   .box-card .content{
     display: grid;
-    /* flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start; */
     padding: 16px;
     gap: 16px;
   }
@@ -131,69 +126,28 @@
     opacity: 0.75;
   }
   
-  /* .box-img{
-    width: 100%;
-    height: 153px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    border-radius: 10px;
-  } */
-  
-  /* .img-card{
-    width: 100%;
-    height: 153px;
-    object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-  } */
-/*   
-  .box-texto{
-    width: 100%;
-    height: 170px;
-  } */
   
   .titulo{
     font-family: 'Julee', cursive;
     letter-spacing: 2px;
   }
-  
-  /* .sub-titulo{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 140%;
-    margin-top: 0;
-    color:#121214;
-  
+
+  .mapa{
+    width: 80%;
+    margin: auto;
+    display: none;
+    padding-top: 2rem;
   }
   
-  .descricao{
+  .mapa iframe{
     width: 100%;
-    height: 52px;
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    align-items: center;
-    word-break: break-all;
-    line-height: 1.5;
-    margin:  1rem 0;
-    opacity: 0.75;
+    height: 30rem;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #999;
+    
+  
   }
-  
-  .localizacao{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-    color: rgba(0, 0, 0, 0.75);
-    opacity: 0.75;
-  }
-  
-  #localizacao{
-    margin: 0;
-  }
-   */
-  
-  
   
   
