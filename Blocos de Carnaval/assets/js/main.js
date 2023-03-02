@@ -66,12 +66,12 @@ const imgMapa = document.querySelector(".mapa")
 
 
 lista.addEventListener('click', () => {
-    imgMapa.style.display = 'none';
+    imgMapa.style.visibility = 'hidden';
     blocos.style.display = 'block'
 })
 
 mapa.addEventListener('click', () => {
     blocos.style.display = 'none';
-    imgMapa.style.display = 'initial'
+    imgMapa.style.visibility = 'initial'
 })
 

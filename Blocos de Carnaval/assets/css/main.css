@@ -135,8 +135,9 @@
   .mapa{
     width: 80%;
     margin: auto;
-    display: none;
+    /* display: none; */
     padding-top: 2rem;
+    visibility: hidden;
   }
   
   .mapa iframe{
