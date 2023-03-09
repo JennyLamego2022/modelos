@@ -1,0 +1,34 @@
+@media (min-width: 1024px){
+
+    h1{
+        font-size: 2rem;
+    }
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+
+    .conteudo{
+        flex-direction: row;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .conteudo img{
+        width: 30%;
+       padding-right: 2rem;
+    }
+
+   
+    .lista{
+        display: flex;
+        padding: 2rem 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    .lista ul, .lista img{
+        width: 50%;
+    }
+}

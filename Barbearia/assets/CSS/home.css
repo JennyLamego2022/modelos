@@ -10,6 +10,7 @@ body{
 
 h1{
     font-weight: 500;
+    padding: 2rem 0;
 }
 
 header{
@@ -39,11 +40,8 @@ header{
 }
 
 .navbar button:hover{
-    color: yellow;
-  
+    color: #D2691E;
 }
-
-
 
 .banner img{
     width: 100%;
@@ -57,7 +55,7 @@ main{
 }
 
 .sobre h1{
-    padding: 2rem 0;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -72,7 +70,10 @@ main{
     width: 45%;
     margin: auto;
     padding-bottom: 2rem;
-    
+}
+
+#missao{
+    font-style: italic
 }
 
 .localizacao{
@@ -80,20 +81,75 @@ main{
     flex-direction: column;
     text-align: center;
     padding:  3.5rem 1rem; 
-
 }
 
-.mapa{
+.mapa, .video{
     width: 90%;
-    border: 1px solid red;
     margin: auto;
-    height: 10rem;
+    height: 15rem;
     margin-top: 2rem;
-    
 }
 
-.mapa iframe{
+.mapa iframe, .video iframe{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    box-shadow: 5px 5px 20px;
+}
+
+.video{
+    height: 20rem;
+    padding-bottom: 2rem;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:  0 1rem; 
+}
+
+.beneficios img{
+    width: 90%;
+}
+
+.lista ul{
+ padding-bottom: 2rem;
+}
+
+.lista li{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 1rem;
+    line-height: 1.5;
+    gap: 5px;
+}
+
+.lista li:before {
+	content: "★";
+}
+
+.lista img{
+    box-shadow: 5px 5px 20px;
+    transition: 8ms;
+}
+
+.lista img:hover{
+    opacity: 40%;
+    transition: 8ms;
+}
+
+footer{
+    background-image: url(../img/bg.jpg);
+    text-align: center;
+}
+
+footer img{
+    padding-top: 2rem;
+}
+
+.copyright{
+    color: white;
+    padding: 2rem;
+    font-size: 0.8rem;
 }
