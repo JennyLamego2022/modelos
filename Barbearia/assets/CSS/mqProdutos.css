@@ -1,0 +1,10 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 6rem 2rem;
+}
+
+.card{
+   transform: scale(0.8);
+
+}

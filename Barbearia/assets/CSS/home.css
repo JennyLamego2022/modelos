@@ -9,7 +9,7 @@ body{
 }
 
 h1{
-    font-weight: 500;
+    font-weight: 700;
     padding: 2rem 0;
 }
 
@@ -41,6 +41,10 @@ header{
 
 .navbar button:hover{
     color: #D2691E;
+}
+
+.navbar a{
+    all: unset;
 }
 
 .banner img{
