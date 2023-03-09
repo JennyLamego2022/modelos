@@ -1,0 +1,87 @@
+fieldset{
+    border: none;
+}
+.formulario{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.formulario label{
+    color: rgb(89, 88, 88);
+    padding: 0.2rem 0;
+}
+
+.formulario input, textarea, .horario select{
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.formulario input:focus, textarea:focus, .horario select{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.tipoContato, .horario{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.horario select{
+    max-width: 10rem;
+}
+
+.email{
+    padding: 1rem;
+
+}
+
+.email input{
+    margin-right: 10px;
+}
+
+.botao{
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.botao button{
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #D2691E;
+    box-shadow: 0px 5px 10px rgb(60, 59, 59);
+    cursor: pointer;
+}
+
+.botao button:hover{
+    background-color: #e48a49;
+
+}
+
+table{
+    /* border: 1px solid black; */
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding-bottom: 2rem;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: 700;
+}
+
+td, th{
+    border: 1px solid black; 
+    padding: 0.5rem 0.8rem; 
+    text-align: center;
+    font-weight: 700;
+}
