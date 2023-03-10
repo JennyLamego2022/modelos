@@ -1,0 +1,10 @@
+@media (min-width:1024px){
+   form{
+    width: 60%;
+    margin: auto;
+   } 
+
+   .tipoContato, .horario, .email{
+   padding-left: 2rem;
+   }
+}
