@@ -1,6 +1,7 @@
 fieldset{
     border: none;
 }
+
 .formulario{
     width: auto;
     display: flex;
@@ -9,7 +10,7 @@ fieldset{
 }
 
 .formulario label{
-    color: rgb(89, 88, 88);
+    color: var(--font-label-color) ;
     padding: 0.2rem 0;
 }
 
@@ -43,6 +44,10 @@ fieldset{
     margin-right: 10px;
 }
 
+.tipoContato, .horario, .email{
+    padding-left: 2rem;
+}
+
 .botao{
     text-align: center;
     margin: auto;
@@ -54,14 +59,13 @@ fieldset{
     border-radius: 8px;
     border: none;
     text-transform: uppercase;
-    background-color: #D2691E;
-    box-shadow: 0px 5px 10px rgb(60, 59, 59);
+    background-color: var(--btn-hover-color);
+    box-shadow: var(--boxshadow-btn);
     cursor: pointer;
 }
 
 .botao button:hover{
-    background-color: #e48a49;
-
+    background-color: var(--btn-hover2-color);
 }
 
 .botao a{
@@ -69,7 +73,6 @@ fieldset{
 }
 
 table{
-    /* border: 1px solid black; */
     margin: auto;
     border-collapse: collapse;
     border-spacing: 0;
@@ -77,8 +80,8 @@ table{
 }
 
 thead{
-    background-color: #555555;
-    color: white;
+    background-color: var(--bg-body-table);
+    color: var(--font-secondary-color);
     font-weight: 700;
 }
 
@@ -93,19 +96,19 @@ td, th{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgb(60, 59, 59);
+    box-shadow: var(--boxshadow-btn);
     padding: 1rem;
     height: 50vh;
     margin: auto;
-    background: rgb(71,70,83);
-    background: linear-gradient(0deg, rgba(71,70,83,1) 0%, rgba(187,187,187,1) 41%, rgba(240,245,244,1) 100%);
+    background: var(--bg-body-base);
+    background: var(--bg-body-gradiente-color);
     position: absolute;
     top: 50%;
     bottom: 50%;
     left: 0;
     right: 0;
     width: 70%;
-     display: none;
+    display: none;
 }
 
 .modal h1{
@@ -113,13 +116,12 @@ td, th{
 }
 
 .modal button{
-    margin-top: 1rem ;
+    margin-top: 1.5rem ;
     padding: 0.6rem;
     border-radius: 8px;
     border: none;
     text-transform: uppercase;
-    background-color: #D2691E;
-    box-shadow: 0px 5px 10px rgb(60, 59, 59);
+    background-color: var(--btn-hover-color);
+    box-shadow: var(--boxshadow-btn);
     cursor: pointer;
-
 }

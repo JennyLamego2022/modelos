@@ -1,8 +1,9 @@
-@media (min-width: 1024px){
+@media (min-width: 768px){
 
     h1{
         font-size: 2rem;
     }
+
     .cabecalho{
         flex-direction: row;
         justify-content: space-between;
@@ -20,7 +21,6 @@
        padding-right: 2rem;
     }
 
-   
     .lista{
         display: flex;
         padding: 2rem 0;
