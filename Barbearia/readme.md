@@ -11,7 +11,7 @@
 
 ## Descrição
 
- Refatoração de um projeto antigo que havia feito utilizando a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alternar entre display 'non' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botões do arquivo contato. 
+ Refatoração de um projeto antigo que havia feito utilizando a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alternar entre display 'none' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botões do arquivo contato. 
 
 
 ## Imagens
@@ -47,6 +47,7 @@ Em construção
 ## Tecnologias
 
  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ JAVASCRIPT (adicionar img)
  
 Hospedagem:
 
