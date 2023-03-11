@@ -11,7 +11,7 @@
 
 ## Descrição
 
- Refatoração de um projeto antigo que havia feito utilizando a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alterarnar entre display 'non' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botoes do arquivo contato. 
+ Refatoração de um projeto antigo que havia feito utilizando a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alternar entre display 'non' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botões do arquivo contato. 
 
 
 ## Imagens
