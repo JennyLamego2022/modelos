@@ -1,0 +1,22 @@
+
+@media (min-width:768px){
+  .modal{
+     width: 60%;
+  }
+  .modal button{
+     margin-top: 2.5rem;
+  }
+
+  form{
+     width: 80%;
+     margin: auto;
+    }
+  }
+
+@media (min-width:1024px){
+  form{
+   width: 70%;
+   margin: auto;
+  }
+}
+

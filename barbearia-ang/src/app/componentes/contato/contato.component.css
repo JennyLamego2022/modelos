@@ -1,0 +1,127 @@
+fieldset{
+  border: none;
+}
+
+.formulario{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.formulario label{
+  color: var(--font-label-color) ;
+  padding: 0.2rem 0;
+}
+
+.formulario input, textarea, .horario select{
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.formulario input:focus, textarea:focus, .horario select{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.tipoContato, .horario{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.horario select{
+  max-width: 10rem;
+}
+
+.email{
+  padding: 1rem;
+}
+
+.email input{
+  margin-right: 10px;
+}
+
+.tipoContato, .horario, .email{
+  padding-left: 2rem;
+}
+
+.botao{
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.botao button{
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--btn-hover-color);
+  box-shadow: var(--boxshadow-btn);
+  cursor: pointer;
+}
+
+.botao button:hover{
+  background-color: var(--btn-hover2-color);
+}
+
+.botao a{
+  all: unset;
+}
+
+table{
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding-bottom: 2rem;
+}
+
+thead{
+  background-color: var(--bg-body-table);
+  color: var(--font-secondary-color);
+  font-weight: 700;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 0.5rem 0.8rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.modal{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: var(--boxshadow-btn);
+  padding: 1rem;
+  height: 50vh;
+  margin: auto;
+  background: var(--bg-body-base);
+  background: var(--bg-body-gradiente-color);
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  width: 70%;
+  display: none;
+}
+
+.modal h1{
+  padding-top: 1rem ;
+}
+
+.modal button{
+  margin-top: 1.5rem ;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--btn-hover-color);
+  box-shadow: var(--boxshadow-btn);
+  cursor: pointer;
+}

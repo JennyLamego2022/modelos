@@ -1,0 +1,96 @@
+<body>
+  <div class="flutuante">
+      <button ><a href="#up"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M13 18v-6h5l-6-7-6 7h5v6z"></path></svg></a></button>
+  </div>
+  <header>
+      <div class="header" id="up">
+          <div class="cabecalho">
+              <img src="./assets/img/logo.png" alt="Logo">
+              <div class="navbar">
+                  <button><a href="./index.html">Home</a></button>
+                  <button><a href="./produtos.html">Produtos</a></button>
+                  <button id="foco"><a href="./contato.html">Contato</a></button>
+              </div>
+          </div>
+
+          <div class="banner">
+              <img src="./assets/img/banner.jpg" alt="Banner cadeiras da barbearia">
+          </div>
+      </div>
+  </header>
+  <main>
+     <form action="">
+          <fieldset class="formulario">
+              <label for="nome">Nome e sobrenome</label>
+              <input type="text" class="input" id="nome">
+
+              <label for="email">E-mail</label>
+              <input type="email" class="input" id="email" placeholder="seuemail@dominio.com">
+
+              <label for="tel">Telefone</label>
+              <input type="tel" placeholder="(xx) xxxx-xxxx">
+
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea>
+          </fieldset>
+          <fieldset class="tipoContato">
+              <legend>Como prefere o nosso contato?</legend>
+              <label for="email"><input type="radio" name="contato" value="email" id="email">E-mail></label><br>
+              <label for="telefone"><input type="radio" name="contato" value="telefone" id="telefone">Telefone></label><br>
+              <label for="whatsapp"><input type="radio" name="contato" value="whatsapp" id="whatsapp">Whatsapp></label><br>
+          </fieldset>
+          <fieldset class="horario">
+              <legend value="turno">Qual horário prefere ser atendido?</legend>
+              <select name="turno" id="turno">
+                  <option value="manha">Manhã</option>
+                  <option value="tarde">Tarde</option>
+                  <option value="noite">Noite</option>
+              </select>
+          </fieldset>
+          <section class="email">
+              <input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?>
+          </section>
+          <div class="botao">
+              <button type="reset" id="botao"><a href="#up">Enviar formulário</a></button>
+          </div>
+
+     </form>
+     <table>
+          <thead>
+              <tr>
+                  <th>Dia</th>
+                  <th>Horário</th>
+              </tr>
+          </thead>
+          <tbody>
+
+              <tr>
+                  <td>Segunda</td>
+                  <td>8h ~ 20h</td>
+              </tr>
+              <tr>
+                  <td>Quarta</td>
+                  <td>8h ~ 20h</td>
+              </tr>
+              <tr>
+                  <td>Sexta</td>
+                  <td>8h ~ 20h</td>
+              </tr>
+          </tbody>
+     </table>
+
+  </main>
+  <footer>
+      <div>
+          <img src="./assets/img/logo-branco.png" alt="Logo-branca">
+          <p class="copyright">&copy; Copyright Barbearia Alura - 2023</p>
+      </div>
+  </footer>
+  <div class="modal">
+      <h1>Obrigado!</h1>
+      <p>Sua mensagem foi recebida com sucesso!</p><br>
+      <p>Em breve entraremos em contato.</p>
+      <button type="button" id="fechar">FECHAR</button>
+  </div>
+  <script src="./assets/JS/main.js"></script>
+</body>
