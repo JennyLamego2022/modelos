@@ -6,6 +6,11 @@ import { ProdutosComponent } from './componentes/produtos/produtos.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  {
     path: 'home',
     component: HomeComponent
   },
