@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ProdutosComponent
   },
   {
-    path: 'contatos',
+    path: 'contato',
     component: ContatoComponent
   },
 
