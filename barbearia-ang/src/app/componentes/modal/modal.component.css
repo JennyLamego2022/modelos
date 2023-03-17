@@ -1,0 +1,53 @@
+
+
+.modal{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  /* box-shadow: var(--boxshadow-btn); */
+  box-shadow: 0 2px 8px #333;
+  padding: 1rem;
+  /* height: 50vh; */
+  margin: auto;
+  background: var(--bg-body-base);
+  background: var(--bg-body-gradiente-color);
+  /* position: absolute; */
+  position: fixed;
+  /* top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0; */
+  width: 70%;
+  /* display: none; */
+  left: 50%;
+  padding: 24px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+}
+
+.modal h1{
+  padding-top: 1rem ;
+}
+
+.modal button{
+  margin-top: 1.5rem ;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--btn-hover-color);
+  box-shadow: var(--boxshadow-btn);
+  cursor: pointer;
+}
+
+.overlay {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}

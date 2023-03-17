@@ -1,0 +1,13 @@
+<ng-container *ngIf="mostrar">
+    <div>
+      <!-- <app-modal>
+         <h1>Obrigado!</h1>
+        <p>Sua mensagem foi recebida com sucesso!</p><br>
+        <p>Em breve entraremos em contato.</p>
+        <button type="button" id="fechar">FECHAR</button>
+      </app-modal> -->
+       <ng-content></ng-content>
+    </div>
+    <div (click)="toggle()"
+        class="overlay"></div>
+</ng-container>

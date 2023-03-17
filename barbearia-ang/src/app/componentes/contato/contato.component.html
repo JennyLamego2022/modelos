@@ -1,4 +1,4 @@
-<body >
+<body id="here" >
   <div class="flutuante">
       <button ><a href="#up"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M13 18v-6h5l-6-7-6 7h5v6z"></path></svg></a></button>
   </div>
@@ -19,7 +19,7 @@
       </div>
   </header>
   <main>
-     <form action="">
+     <form action="" class="form">
           <fieldset class="formulario">
               <label for="nome">Nome e sobrenome</label>
               <input type="text" class="input" id="nome">
@@ -35,9 +35,9 @@
           </fieldset>
           <fieldset class="tipoContato">
               <legend>Como prefere o nosso contato?</legend>
-              <label for="email"><input type="radio" name="contato" value="email" id="email">E-mail></label><br>
-              <label for="telefone"><input type="radio" name="contato" value="telefone" id="telefone">Telefone></label><br>
-              <label for="whatsapp"><input type="radio" name="contato" value="whatsapp" id="whatsapp">Whatsapp></label><br>
+              <label for="email"><input type="radio" name="contato" value="email" id="email">E-mail</label><br>
+              <label for="telefone"><input type="radio" name="contato" value="telefone" id="telefone">Telefone</label><br>
+              <label for="whatsapp"><input type="radio" name="contato" value="whatsapp" id="whatsapp">Whatsapp</label><br>
           </fieldset>
           <fieldset class="horario">
               <legend value="turno">Qual horário prefere ser atendido?</legend>
@@ -51,7 +51,7 @@
               <input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?>
           </section>
           <div class="botao">
-              <button type="reset" id="botao"><a href="#up" (click)="enviar()">Enviar formulário</a></button>
+              <button type="reset" id="botao" (click)="modal.toggle()">Enviar formulário</button>
           </div>
 
      </form>
@@ -88,18 +88,28 @@
   </footer>
 
   <script src="./assets/JS/main.js"></script>
-  <ng-template #semModal>
+  <!-- <ng-template #semModal>
     <div class="modal">
         <h1>Obrigado!</h1>
         <p>Sua mensagem foi recebida com sucesso!</p><br>
         <p>Em breve entraremos em contato.</p>
         <button type="button" id="fechar">FECHAR</button>
     </div>
-  </ng-template>
+  </ng-template> -->
     <!-- <div class="modal">
         <h1>Obrigado!</h1>
         <p>Sua mensagem foi recebida com sucesso!</p><br>
         <p>Em breve entraremos em contato.</p>
         <button type="button" id="fechar">FECHAR</button>
-    </div> -->
+    </div>
+    <div class="overlay"></div> -->
+    <app-modal #modal>
+      <div class="modal">
+          <h1>Obrigado!</h1>
+          <p>Sua mensagem foi recebida com sucesso!</p><br>
+          <p>Em breve entraremos em contato.</p>
+          <button  id="fechar" (click)= "acaoPrimaria(); modal.toggle()">FECHAR</button>
+      </div>
+    </app-modal>
 </body>
+
