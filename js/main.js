@@ -1,19 +1,30 @@
 const robotron = document.querySelector('#robotron')
-
-const subtrair = document.querySelector('#subtrair')
-const somar =  document.querySelector('#somar')
-const braco =  document.querySelector('#braco')
-const pecas = document.querySelectorAll(".peca-titulo")
-
-const controle = document.querySelectorAll(".controle-ajuste")
+const controle = document.querySelectorAll("[data-controle]")
 console.log(controle)
 
 controle.forEach((elemento) => {
     elemento.addEventListener('click', (evento) =>{
-        manipulaDados(evento.target.textContent)
-
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
     })
 })
+
+
+function manipulaDados (operacao, controle){
+    const peca =  controle.querySelector('[data-contador]')
+
+    if(operacao === '-'){
+        peca.value = parseInt(peca.value) - 1
+    }else {
+        peca.value = parseInt(peca.value)+ 1
+    }
+}
+
+
+
+// MEMORIA DE FUNÇÕES______________________
+
+// const subtrair = document.querySelector('#subtrair')
+// const somar =  document.querySelector('#somar')
 
 // robotron.addEventListener('click',(evento) => {
 //     console.log(evento)
@@ -42,10 +53,3 @@ controle.forEach((elemento) => {
 
 
 
-function manipulaDados (operacao){
-    if(operacao === '-'){
-        braco.value = parseInt(braco.value) - 1
-    }else {
-        braco.value = parseInt(braco.value)+ 1
-    }
-}
