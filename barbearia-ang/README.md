@@ -1,5 +1,3 @@
-# BarbeariaAng
-
 # <h1 align = "center">Barbearia</h1>
 
  - [Descrição](#descrição)
@@ -13,9 +11,11 @@
 
 ## Descrição
 
- Refatoração de um projeto antigo que havia feito utilizando a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alternar entre display 'none' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botões do arquivo contato. 
+ Refatoração de um projeto antigo que havia feito em apenas HTML e CSS. No projeto atual está sendo utilizado a tríade HTML, CSS e JavaScript. O objetivo dessa refatoração, é poder aplicar novos conceitos. Como responsividade em mobile first, sombreamento, display flex, variáveis CSS para todo o projeto, utilização de JavaScript para alternar entre display 'none' e 'block' um modal criado para confirmar o recebimento da mensagem de contato. Funções nos botões do arquivo contato. 
 
- Finalizacao do readme em construção
+ O projeto trata-se de um site de uma barbearia, que aborda alguns elementos como links de video e mapa, tags âncoras para a troca de página, cards com os serviços oferecidos usando display flex para distribuição dos mesmos com abordagem na responsividade das telas, formulário de contato e modal de confirmação de mensagem enviada, utilizando funções JavaScript para a troca desse display.
+
+ Nessa Etapada do projeto, foi todo refatorado utilizando o famework Angular, para testar as diferentes formar de codificar o mesmo projeto. 
 
 
 ## Imagens
@@ -33,15 +33,69 @@
 
 **Mobile First**
  
- Em construção
+ HOME
+
+ - [x] Header (Comum a todas as páginas)
+    - [x] Bg gradiente, Imagem Logo;
+    - [x] Navbar (Home, Produtos, Contato), para navegação entre as páginas;
+    - [x] Ênfase, na navbar mostrando a página atual;
+    - [x] Imagem Barbearia;
+    - [x] Sombreamento da Img;
+
+ - [x] Botão flutuante UP (Comum a todas as páginas);
+
+ - [x] Main
+    - [x] Bg gradiente;
+    - [x] Section Sobre (Titulo, img, texto);
+    - [x] Section Localização (Titulo, link mapa);
+    - [x] Section Benefícios (Lista, img , link vídeo);
+  
+ - [x] Footer (Comum a todas as páginas)
+    - [x] Bg , Imagem Logo, Copyright;
+   
+PRODUTOS
+
+ - [x] Main
+    - [x] Bg gradiente;
+    - [x] 3 Cards (Titulo, imag, texto);
+    - [x] Sombreamento dos cards;
+    - [x] flex-direction: column;
+
+CONTATOS
+
+ - [x] Main
+    - [x] Formulário;
+     - [x] Label, input (Nome, e-mail, tel, mensagem);
+     - [x] Label, input (Manhã, tarde e noite);
+     - [x] Select, option (Manhã, tarde e noite);
+     - [x] Checkbox;
+     - [x] Botão enviar;
+     - [x] Função JS para esconder e aparecer o modal;
+     - [x] Função JS para resetar o formulário;
+     - [x] Tabela de horários;
+
+ - [x] Div Modal
+     - [x] Bg gradiente;
+     - [x] Título, texto, botão;
+     - [x] Função JS para esconder e aparecer o modal;
+
+  
+
+  OBS: 
+  Variáveis (:root) para todos os arquivos de CSS;
+  Criação de arquivos CSS para a @media de cada página; 
+  home.css como arquivo padrão para formatação do header, botão flutuante e footer.
+  
+   
+
 
 **Desktop**
 
-Em construção
+Mesma lista do mobile first, porém com a diferença do flex direction do display flex. (flex-direction: column) para (flex-direction: row).
 
 **Extra**
 
- - [x] Criar função JS para os botões da pagina contato;
+ - [x] Criar função JS para os botões da página contato;
  - [x] Criar modal para confirmação de recebimento da mensagem;
  
 ## Tecnologias
@@ -51,7 +105,7 @@ Em construção
  
 Hospedagem:
 
-Em breve, hospedagem no Vercel.
+Vercel: https://modelos-h483.vercel.app/
 
 
  ## Clonagem
@@ -66,20 +120,13 @@ Em breve, hospedagem no Vercel.
 
 <br />
 
-### Procedimentos de instalação <a name="id06"></a>
-
-<br />
-
-Clone este repositório usando o comando:
-
-```bash
-git clone https://github.com/<meu_user>/<my-repo>.git
-```
 
  
 ## Depoimento
 
-Em construção
+Muito enriquecedor, perceber que um projeto que lá traz demorei mais de uma semana para completar e hoje com o conhecimento muito mais apurado fiz em 2 dias. 
+
+Nova visão na construção do HTML, CSS e JS.  
  
 
 
